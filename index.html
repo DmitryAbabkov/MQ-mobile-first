@@ -6,13 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Noemi</title>
+  <link rel="stylesheet" href="style/normalize.css">
   <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
-  <header class="header">
-    <div class="container">
-      <!-- <img class="nav-svg" src="./img/svg/Btn Close.png" width="22px" height="19px" alt=""> -->
+  <div class="container">
+    <header class="header">
+      <img class="nav-svg" src="./img/menu.png" width="22px" height="19px" alt="">
       <nav class="nav">
         <a href="#0" class="logo-link">
           <img class="logo" src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg"
@@ -26,11 +27,11 @@
           <li class="nav-item"><a href="#0" class="nav-link">Темы</a></li>
           <li class="nav-item"><a href="#0" class="nav-link">Контакты</a></li>
         </ul>
-        <img class="nav-svg" src="./img/svg/Btn Close.png" width="22px" height="19px" alt="">
+        <!-- <img class="nav-svg" src="./img/menu.png" width="22px" height="19px" alt=""> -->
       </nav>
       <h1 class="header-content">Блог о творчестве, спорте, и образе жизни</h1>
-    </div>
-  </header>
+    </header>
+  </div>
   <section class="triends">
     <h2 class="triends-title">Сейчас в тренде</h2>
     <div class="triends-list">
@@ -96,13 +97,14 @@
         <div class="news-center">
           <div class="news-list">
             <article class="news-item">
-              <img class="news-item-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg"
+              <img class="news-item-img"
+                src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg"
                 alt="Человек на пляже">
               <div class="news-info">
                 <div class="tags">
                   <ul class="tags-list">
-                    <li class="tags-item"><a href="#0" class="tags-link">Travel</a></li>
-                    <li class="tags-item"><a href="#0" class="tags-link tags-link-next">Health</a>
+                    <li class="tags-item tags-item-news"><a href="#0" class="tags-link">Travel</a></li>
+                    <li class="tags-item tags-item-news"><a href="#0" class="tags-link tags-link-next">Health</a>
                     </li>
                   </ul>
                 </div>
@@ -116,13 +118,13 @@
             </article>
 
             <article class="news-item">
-              <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg"
+              <img class="news-item-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg"
                 alt="Девушка, занимающаяся спортом">
               <div class="news-info">
                 <div class="tags">
                   <ul class="tags-list">
-                    <li class="tags-item"><a href="#0" class="tags-link">Health</a></li>
-                    <li class="tags-item"><a href="#0" class="tags-link tags-link-next">Lifestyle</a>
+                    <li class="tags-item tags-item-news"><a href="#0" class="tags-link">Health</a></li>
+                    <li class="tags-item tags-item-news"><a href="#0" class="tags-link tags-link-next">Lifestyle</a>
                     </li>
                   </ul>
                 </div>
@@ -136,12 +138,12 @@
             </article>
 
             <article class="news-item">
-              <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg"
+              <img class="news-item-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg"
                 alt="Мужчина в толпе">
               <div class="news-info">
                 <div class="tags">
                   <ul class="tags-list">
-                    <li class="tags-item"><a href="#0" class="tags-link">Music</a></li>
+                    <li class="tags-item tags-item-news"><a href="#0" class="tags-link">Music</a></li>
                   </ul>
                 </div>
                 <h2 class="news-title"><a href="#0" class="news-link">Лучшие музыкальные фестивали
@@ -158,13 +160,13 @@
             </article>
 
             <article class="news-item">
-              <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg"
+              <img class="news-item-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg"
                 alt="Обед на столе">
               <div class="news-info">
                 <div class="tags">
                   <ul class="tags-list">
-                    <li class="tags-item"><a href="#0" class="tags-link">Lifestyle</a></li>
-                    <li class="tags-item"><a href="#0" class="tags-link tags-link-next">Food</a>
+                    <li class="tags-item tags-item-news"><a href="#0" class="tags-link">Lifestyle</a></li>
+                    <li class="tags-item tags-item-news"><a href="#0" class="tags-link tags-link-next">Food</a>
                     </li>
                   </ul>
                 </div>
@@ -184,10 +186,10 @@
               <div class="news-info">
                 <div class="tags">
                   <ul class="tags-list">
-                    <li class="tags-item"><a href="#0" class="tags-link">Lifestyle</a></li>
-                    <li class="tags-item"><a href="#0" class="tags-link tags-link-next">Interior</a>
+                    <li class="tags-item tags-item-news"><a href="#0" class="tags-link">Lifestyle</a></li>
+                    <li class="tags-item tags-item-news"><a href="#0" class="tags-link tags-link-next">Interior</a>
                     </li>
-                    <li class="tags-item"><a href="#0" class="tags-link tags-link-next">Art</a>
+                    <li class="tags-item tags-item-news"><a href="#0" class="tags-link tags-link-next">Art</a>
                     </li>
                   </ul>
                 </div>
@@ -412,9 +414,8 @@
       </div>
     </div>
   </section>
-
-  <!-- <section class="popup">
-    <span class="close"></span>
+  <!-- 
+  <section class="popup">
     <div class="container">
       <article class="popup-window">
         <h2 class="popup-title">Ваш фидбек</h2>
