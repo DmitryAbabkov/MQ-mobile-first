@@ -34,6 +34,10 @@
     padding: 0 1.5rem 0;
   }
 
+  .container-footer {
+    padding: 0 1.5rem 0;
+  }
+
   /* Header */
 
   .header {
@@ -136,7 +140,7 @@
     border: 3px solid rgba(181, 159, 91, 0.6);
     min-width: 32.8rem;
     max-width: 64.1rem;
-
+    width: 100%;
   }
 
   .triends-item-title {
@@ -179,9 +183,15 @@
     max-width: 64rem;
   }
 
+  .news-item::after {
+    content: '';
+    border: 3px solid #EEEEEE;
+    margin-top: 2.2rem;
+    display: block;
+    min-width: 33rem;
+  }
+
   .news-item-img {
-    /* max-width: 32.83rem;
-    max-height: 25.3rem; */
     width: 100%;
   }
 
@@ -191,7 +201,6 @@
     flex-wrap: wrap;
     gap: 1rem;
   }
-
 
   .tags-item-news {
     margin-left: 0;
@@ -224,7 +233,6 @@
     font-weight: 400;
     line-height: 2rem;
     color: #0F0D0E;
-    /* max-width: 33rem; */
   }
 
   .tags-list-news {
@@ -251,7 +259,7 @@
     color: #0F0D0E;
     font-size: 1.6rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 4.2rem;
     position: relative;
   }
 
@@ -287,6 +295,10 @@
   .news-search-form {
     display: flex;
   }
+  
+  .search-label {
+    width: 100%;
+  }
 
   .news-input {
     background-color: #F4F7F6;
@@ -297,6 +309,7 @@
   .news-search-input {
     min-width: 28.2rem;
     min-height: 4.8rem;
+    width: 100%;
   }
 
   .news-search-button {
@@ -309,6 +322,7 @@
   /* Aside Subscribe */
   .news-subscribe-input {
     min-width: 32.9rem;
+    width: 100%;
   }
 
   .news-subscribe-button {
@@ -321,14 +335,15 @@
     font-weight: 700;
     font-size: 1.4rem;
     margin: 1.7rem 0 4.5rem;
+    width: 100%;
   }
 
   /* Aside Tags */
 
   .tags-aside-list {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 0.3rem;
   }
 
   .tags-aside-item {
@@ -389,6 +404,9 @@
 
 .border-products {
   border: 3px solid rgba(181, 159, 91, 0.6);
+  margin-top: -3rem;
+  position: relative;
+  z-index: 1;
 }
 
 .products-title {
@@ -398,10 +416,12 @@
 .products-img {
   display: block;
   margin: 0 auto;
+  position: relative;
 }
 
 .products-content {
   padding-left: 2.2rem;
+  padding-right: 2.2rem;
 }
 
 .products-item-title {
@@ -409,12 +429,14 @@
   font-weight: 700;
   color: #0F0D0E;
   text-transform: uppercase;
+  margin-top: 5.5rem;
 }
 
 .products-descr {
   font-size: 1.5rem;
   color: #0F0D0E;
   font-weight: 400;
+  line-height: 2.2rem;
 }
 
 .products-descr-link {
@@ -422,8 +444,31 @@
   font-size: 1.5rem;
 }
 
+.shop {
+  background-color: #B59F5B;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1.5rem 2.8rem 1.5rem 3rem;
+}
+
 .products-shop {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  margin-top: 2.6rem;
+  align-items: flex-end;
+}
+
+.price-products {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.old-price {
+  text-decoration: line-through;
 }
 
 
@@ -431,14 +476,34 @@
 
 /* Footer */
 
+.social {
+background-color: #F4F7F6;
+margin-bottom: 5rem;
+}
+
 .social-list {
   display: flex;
   justify-content: center;
+  gap: 3rem;
+  padding: 3rem 0;
 }
 
 .social-icon {
   width: 2rem;
   height: 2rem;
+}
+
+.copyright {
+  margin-bottom: 4.6rem;
+}
+
+.copyright-link {
+  font-size: 1.2rem;
+  color: #999999;
+  text-decoration: none;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
 }
 
 

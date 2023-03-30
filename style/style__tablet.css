@@ -1,0 +1,49 @@
+.container {
+    max-width: 199.9rem;
+}
+
+/* Header */
+
+.header {
+    background-image: url('../img/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    min-height: 39.2rem;
+    max-height: 45rem;
+    min-width: 64.1rem;
+    max-width: 199.9rem;
+    padding-top: 4.2rem;
+}
+
+.header-content {
+    font-size: 4rem;
+    line-height: 5.5rem;
+    margin-top: 0;
+}
+
+.logo {
+    width: 15.7rem;
+    height: 3.6rem;
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 10.4rem;
+    margin-left: 3.5rem;
+}
+
+.nav-svg {
+    margin-right: 3.5rem;
+    top: 5.2rem;
+}
+
+/* Triends */
+
+.triends-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.triends-item{
+    min-width: 0;
+    width: calc((100% - 4px)/2);
+}
