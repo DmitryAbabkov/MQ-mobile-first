@@ -2,6 +2,21 @@
     max-width: 199.9rem;
 }
 
+.container-main {
+    display: flex;
+    gap: 3.5rem;
+    justify-content: space-around;
+    padding: 0 3.4rem;
+}
+
+.container-products {
+    padding: 0 3rem;
+}
+
+.main {
+    min-width: 25rem;
+}
+
 /* Header */
 
 .header {
@@ -41,9 +56,77 @@
 .triends-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .triends-item{
     min-width: 0;
     width: calc((100% - 4px)/2);
+}
+
+.triends-border {
+    min-width: 0;
+}
+
+/* News */
+
+.news-list {
+    justify-content: flex-start;
+    max-width: 65rem;
+}
+
+.news-item {
+    min-width: 25rem;
+    max-width: 70rem;
+}
+
+/* Aside */
+
+.news-aside {
+    max-width: 27rem;
+}
+
+.news-link-aside {
+    font-size: 1.4rem;
+}
+
+.news-search-input {
+    min-width: 0;
+}
+
+.news-subscribe-input {
+    min-width: 0;
+}
+
+.news-subscribe-button {
+    min-width: 0;
+}
+
+.news-new-item {
+    max-height: 7rem;
+    line-height: 1;
+}
+
+.news-new-title{
+    margin-top: 0;
+}
+
+/* Products */
+
+.products-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products-item {
+    max-width: calc(50% - 1rem);
+}
+
+.border-products {
+    min-height: 26.4rem;
+}
+
+.products-shop {
+    margin-bottom: 1.5rem;
 }
