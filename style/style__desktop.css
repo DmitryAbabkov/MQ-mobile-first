@@ -1,0 +1,146 @@
+.container {
+    max-width: 117rem;
+}
+
+.container-main {
+    display: flex;
+}
+
+.container-products {
+    max-width: 117rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container-footer {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Header */
+
+.header {
+    background-image: url('../img/header_desk.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 45rem;
+}
+
+.nav-list {
+    display: flex;
+    gap: 3.7rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.nav-svg {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 0;
+    width: 17.9rem;
+    height: 6.1rem;
+}
+
+.header-content {
+    font-size: 4.5rem;
+    line-height: 7.5rem;
+    margin-top: 8rem;
+}
+
+/* Triends */
+
+.triends-list {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.triends-item {
+    min-width: 25%;
+    height: 32rem;
+}
+
+.triends-item-title {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-right: 3rem;
+}
+
+.triends-border {
+    min-width: 0;
+}
+/* News */
+
+.news-item {
+    display: flex;
+    max-width: 77.8rem;
+    gap: 3rem;
+}
+
+.news-item::after {
+    display: none;
+}
+
+.news-item-img {
+    width: 38.1rem;
+}
+
+.news-link {
+    font-size: 2rem;
+}
+
+/* Aside */
+
+.news-new-list {
+    width: 27.1rem;
+}
+
+.news-subscribe-input, .news-subscribe-button {
+    min-width: 0;
+    max-width: 27rem;
+}
+
+.news-search-input {
+    min-width: 0;
+}
+
+.news-link-aside{
+    font-size: 1.4rem;
+}
+
+
+/* Product */
+
+.products-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 6.6rem;
+    width: 117rem;
+}
+
+.products-item {
+    max-width: 34.7rem;
+}
+
+.border-products {
+    height: 26.7rem;
+}
+
+/* Footer */
+
+.social {
+    width: 117rem;
+}
