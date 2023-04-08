@@ -39,6 +39,10 @@
     font-size: 1.3rem;
 }
 
+.nav-link:hover {
+    border-bottom: 1px solid #fff;
+}
+
 .nav-svg {
     display: none;
 }
@@ -102,6 +106,14 @@
     font-size: 2rem;
 }
 
+.news-link:hover {
+    color: #b59f5b;
+}
+
+.tags-link:hover {
+    border-bottom: 1px solid #b59f5b;
+}
+
 /* Aside */
 
 .news-new-list {
@@ -121,6 +133,18 @@
     font-size: 1.4rem;
 }
 
+.news-search-button:hover, .news-subscribe-button:hover {
+    background-color: #313131;
+}
+
+.tags-aside-item:hover {
+    border: 0.3rem solid #b59f5b;
+}
+
+.themse-aside-link:hover {
+    color: #b59f5b;
+}
+
 
 /* Product */
 
@@ -137,6 +161,10 @@
 
 .border-products {
     height: 26.7rem;
+}
+
+.shop:hover {
+    background-color: #313131;
 }
 
 /* Footer */
