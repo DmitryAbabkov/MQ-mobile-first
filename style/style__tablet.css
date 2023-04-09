@@ -130,3 +130,9 @@
 .products-shop {
     margin-bottom: 1.5rem;
 }
+
+/* Popup */
+
+.popup-window {
+    max-width: 39rem;
+}

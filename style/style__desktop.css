@@ -73,7 +73,7 @@
 }
 
 .triends-item {
-    min-width: 25%;
+    width: 25%;
     height: 32rem;
 }
 
@@ -167,8 +167,22 @@
     background-color: #313131;
 }
 
+.products-descr-link {
+    text-decoration: none;
+}
+
+.products-descr-link:hover {
+    border-bottom: 1px solid #b59f5b;
+}
+
 /* Footer */
 
 .social {
     width: 117rem;
+}
+
+/* Popup */
+
+.popup-window {
+    max-width: 39rem;
 }
