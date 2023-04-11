@@ -287,15 +287,19 @@
   .aside-title::after {
     content: '';
     position: absolute;
-    top: 2.6rem;
+    top: 3rem;
     border-bottom: 3px solid rgba(181, 159, 91, 0.4);
     width: 6.6rem;
   }
 
   .news-new-item {
     display: flex;
-    gap: 2rem;
+    gap: 1.8rem;
     margin-bottom: 2.2rem;
+  }
+
+  .news-new-info {
+    margin-top: -0.4rem;
   }
 
   .news-new-title {
@@ -310,7 +314,7 @@
 
 /* Aside  Search*/
   .news-search {
-    margin: 6.6rem 0 4.4rem;
+    margin: 5.9rem 0 4.4rem;
   }
 
   .news-search-form {
@@ -334,7 +338,7 @@
   }
 
   .news-search-button {
-    width: 4.8rem;
+    width: 6rem;
     height: 4.8rem;
     background-color: #B59F5B;
     border: none;
@@ -355,8 +359,12 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.4rem;
-    margin: 1.7rem 0 4.5rem;
+    margin: 1.7rem 0 3.9rem;
     width: 100%;
+  }
+
+  .news-input {
+    padding-left: 1.6rem;
   }
 
   /* Aside Tags */
@@ -373,7 +381,7 @@
     text-transform: uppercase;
     border: 0.3rem solid #EEEEEE;
     padding: 0.8rem 1.5rem 0.7rem 1.3rem;
-    margin-bottom: 0.6rem;
+    margin-bottom: -0.3rem;
   }
 
   .tags-aside-link {
@@ -381,10 +389,14 @@
     color: #0F0D0E;
   }
 
+  .tags-aside-title {
+    margin-bottom: 3.7rem;
+  }
+
   /* Aside Themse */
 
   .themse-aside {
-    margin-top: 4.5rem;
+    margin-top: 4.2rem;
   }
 
   .themse-aside-item {
@@ -419,8 +431,12 @@
 
 /* Products */
 
+.products {
+  margin-bottom: 4.3rem;
+}
+
 .products-item {
-  margin-bottom: 5.5rem;
+  margin-bottom: 2rem;
 }
 
 .border-products {
@@ -431,7 +447,7 @@
 }
 
 .products-title {
-  margin-top: 4.4rem;
+  margin-top: 5.8rem;
 }
 
 .products-img {
@@ -441,7 +457,7 @@
 }
 
 .products-content {
-  padding-left: 2.2rem;
+  padding-left: 1.8rem;
   padding-right: 2.2rem;
 }
 
@@ -450,7 +466,8 @@
   font-weight: 700;
   color: #0F0D0E;
   text-transform: uppercase;
-  margin-top: 5.5rem;
+  margin-top: 5rem;
+  margin-bottom: 0.4rem;
 }
 
 .products-descr {
@@ -478,8 +495,8 @@
 .products-shop {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2.5rem;
-  margin-top: 2.6rem;
+  margin-bottom: 2.8rem;
+  margin-top: 2.3rem;
   align-items: flex-end;
 }
 
@@ -490,6 +507,8 @@
 
 .old-price {
   text-decoration: line-through;
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
 }
 
 
@@ -499,7 +518,7 @@
 
 .social {
 background-color: #F4F7F6;
-margin-bottom: 5rem;
+margin-bottom: 4.6rem;
 }
 
 .social-list {
@@ -516,6 +535,11 @@ margin-bottom: 5rem;
 
 .copyright {
   margin-bottom: 4.6rem;
+  padding-left: 0.7rem;
+}
+
+.copyright-content {
+  
 }
 
 .copyright-link {
