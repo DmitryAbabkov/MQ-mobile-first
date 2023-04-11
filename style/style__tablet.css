@@ -46,6 +46,10 @@
     margin-left: 3.5rem;
 }
 
+.nav {
+    margin-bottom: -1.7rem;
+}
+
 .nav-svg {
     margin-right: 3.5rem;
     top: 5.2rem;
@@ -53,19 +57,55 @@
 
 /* Triends */
 
+.triends {
+    margin-top: 4.4rem;
+}
+
+.triends-title {
+    font-size: 1.8rem;
+}
+
+.triends-title::after {
+    margin-top: 3.4rem;
+}
+
 .triends-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
+.tags-list {
+    margin-top: 2.4rem;
+}
+
+.tags-list-news {
+    margin-top: 0;
+}
+
+.tags-item {
+    margin-left: 3rem;
+}
+
+.tags-item-news {
+    margin-left: 0;
+}
+
 .triends-item{
     min-width: 0;
     width: calc((100% - 4px)/2);
+    height: 24.7rem;
+    padding-left: 2rem;
+}
+
+.triends-item-title {
+    font-size: 1.7rem;
+    margin-left: 3rem;
 }
 
 .triends-border {
     min-width: 0;
+    padding-right: 3.9rem;
 }
 
 /* News */
@@ -78,20 +118,60 @@
 .news-item {
     min-width: 25rem;
     max-width: 70rem;
+    margin-bottom: 1rem;
+}
+
+.news-item::after {
+    margin-top: 2.1rem;
+}
+
+.news-item-last::after {
+    border: none;
+}
+
+.news-title {
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+}
+
+.news-info-other {
+    gap: 1.2rem;
+}
+
+.news-description {
+    margin-top: 2rem;
+}
+
+.news-descr-push {
+    margin-top: 1.3rem;
 }
 
 /* Aside */
 
+.aside-title {
+    font-size: 1.4rem;
+}
+
+.aside-title::after {
+    top: 2.7rem;
+}
+
 .news-aside {
     max-width: 27rem;
+    margin-top: 4.4rem;
 }
 
 .news-link-aside {
     font-size: 1.4rem;
 }
 
+.news-search {
+    margin-bottom: 6rem;
+}
+
 .news-search-input {
     min-width: 0;
+    
 }
 
 .news-subscribe-input {
@@ -100,18 +180,43 @@
 
 .news-subscribe-button {
     min-width: 0;
+    margin-bottom: 5.9rem;
 }
 
 .news-new-item {
     max-height: 7rem;
     line-height: 1;
+    gap: 1.7rem;
 }
 
 .news-new-title{
     margin-top: 0;
 }
 
+.news-new-info {
+ margin-top: 0;
+}
+
+/* Themse */
+
+.themse-aside {
+    margin-top: 6rem;
+}
+
 /* Products */
+
+.products {
+    margin-bottom: 1.1rem;
+}
+
+.products-title {
+    font-size: 1.8rem;
+    margin-top: 3.4rem;
+}
+
+.products-title::after {
+    top: 3.2rem;
+}
 
 .products-list {
     display: flex;
@@ -121,6 +226,15 @@
 
 .products-item {
     max-width: calc(50% - 1rem);
+}
+
+.products-img {
+    height: 22.6rem;
+    width: 29.1rem;
+}
+
+.products-content {
+    padding-left: 2.4rem;
 }
 
 .border-products {
