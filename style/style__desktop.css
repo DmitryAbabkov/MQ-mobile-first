@@ -4,6 +4,7 @@
 
 .container-main {
     display: flex;
+    padding: 0;
 }
 
 .container-products {
@@ -25,11 +26,13 @@
     background-size: cover;
     max-width: 100%;
     max-height: 45rem;
+    padding-top: 2rem;
 }
 
 .nav-list {
     display: flex;
-    gap: 3.7rem;
+    gap: 3.5rem;
+    padding-top: 2rem;
 }
 
 .nav-link {
@@ -61,10 +64,24 @@
 .header-content {
     font-size: 4.5rem;
     line-height: 7.5rem;
-    margin-top: 8rem;
+    margin-top: 9rem;
+    max-width: 70rem;
 }
 
 /* Triends */
+
+.triends {
+    margin-top: 5.8rem;
+}
+
+.triends-title {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.triends-title::after {
+    top: 3.2rem;
+}
 
 .triends-list {
     display: flex;
@@ -75,6 +92,7 @@
 .triends-item {
     width: 25%;
     height: 32rem;
+    /* padding-left: 2.2rem; */
 }
 
 .triends-item-title {
@@ -82,24 +100,46 @@
     line-height: 2.4rem;
     margin-right: 3rem;
 }
+.triends-item-content {
+    padding-left: 1.2rem;
+}
 
 .triends-border {
     min-width: 0;
+    min-height: 14.6rem;
+}
+
+.tags-list {
+    margin-top: 2.4rem;
 }
 /* News */
+
+.news-list {
+    justify-content: flex-start;
+}
 
 .news-item {
     display: flex;
     max-width: 77.8rem;
     gap: 3rem;
+    margin-top: 4.8rem;
+    margin-bottom: 1.3rem;
 }
 
 .news-item::after {
     display: none;
 }
 
+.news-title {
+    margin-bottom: 1.7rem;
+}
+
 .news-item-img {
     width: 38.1rem;
+}
+
+.news-description {
+    margin-top: 3.2rem;
 }
 
 .news-link {
@@ -114,15 +154,57 @@
     border-bottom: 1px solid #b59f5b;
 }
 
+.tags-list-news {
+    margin-top: -1.1rem;
+}
+
+.news-info {
+    gap: 1.6rem;
+    margin-left: -0.2rem;
+}
+
+.news-date {
+    font-size: 1.1rem;
+}
+
+.news-descr-push {
+    margin-top: 1.1rem;
+}
+
 /* Aside */
+
+.news-aside {
+    margin-top: 5.8rem;
+}
+
+.aside-title {
+    font-size: 1.4rem;
+}
+
+.aside-title::after {
+    top: 2.7rem;
+}
 
 .news-new-list {
     width: 27.1rem;
 }
 
+.news-new-item {
+    margin-bottom: 2.2rem;
+}
+
+.news-subscribe-button {
+    margin-bottom: 5.9rem;
+}
+
 .news-subscribe-input, .news-subscribe-button {
     min-width: 0;
     max-width: 27rem;
+    height: 4.8rem;
+}
+
+.news-search {
+    margin-bottom: 6rem;
 }
 
 .news-search-input {
@@ -137,16 +219,47 @@
     background-color: #313131;
 }
 
+.tags-aside-title {
+    margin-bottom: 3.4rem;
+}
+
 .tags-aside-item:hover {
     border: 0.3rem solid #b59f5b;
+}
+
+.themse-aside {
+    margin-top: 6.2rem;
 }
 
 .themse-aside-link:hover {
     color: #b59f5b;
 }
 
+.news-aside-img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.news-new-date {
+    font-size: 1.1rem;
+}
+
+.news-subscribe-title {
+    margin-left: -0.6rem;
+    margin-bottom: 3.8rem;
+}
+
 
 /* Product */
+
+.products-title {
+    font-size: 2rem;
+    margin-top: 4.5rem;
+}
+
+.products-title::after {
+    top: 3.2rem;
+}
 
 .products-list {
     display: flex;
