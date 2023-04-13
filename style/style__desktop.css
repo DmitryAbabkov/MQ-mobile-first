@@ -219,6 +219,10 @@
     background-color: #313131;
 }
 
+.tags-aside-list {
+    gap: 0.6rem;
+} 
+
 .tags-aside-title {
     margin-bottom: 3.4rem;
 }
@@ -249,7 +253,6 @@
     margin-bottom: 3.8rem;
 }
 
-
 /* Product */
 
 .products-title {
@@ -272,8 +275,19 @@
     max-width: 34.7rem;
 }
 
+.products-item-title {
+    font-size: 2rem;
+}
+
+.products-img {
+    max-height: 20.4rem;
+    max-width: 29.9rem;
+}
+
+
 .border-products {
     height: 26.7rem;
+    margin-top: -3.3rem;
 }
 
 .shop:hover {
@@ -292,6 +306,7 @@
 
 .social {
     width: 117rem;
+    margin-bottom: 7.5rem;
 }
 
 /* Popup */

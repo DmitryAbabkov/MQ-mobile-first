@@ -302,10 +302,6 @@
     margin-top: -0.4rem;
   }
 
-  .news-new-title {
-    /* margin-top: 1.1rem; */
-  }
-
   .news-new-date {
     font-size: 1.2rem;
     color: #707070;
@@ -511,9 +507,6 @@
   margin-bottom: 0.3rem;
 }
 
-
-
-
 /* Footer */
 
 .social {
@@ -536,10 +529,6 @@ margin-bottom: 4.6rem;
 .copyright {
   margin-bottom: 4.6rem;
   padding-left: 0.7rem;
-}
-
-.copyright-content {
-  
 }
 
 .copyright-link {
@@ -567,7 +556,6 @@ margin-bottom: 4.6rem;
     z-index: 3;
   }  
 
-
   .popup-window {
     max-width: 33rem;
     position: fixed;
@@ -591,7 +579,6 @@ margin-bottom: 4.6rem;
     background-repeat: no-repeat;
   }
     
-
   .popup-title {
     margin: 0 auto;
     margin-top: 5.6rem;
@@ -603,24 +590,24 @@ margin-bottom: 4.6rem;
     max-width: 150px;
   }
 
-  .popup-title::after {
-    content: '';
-    border-bottom: 3px solid rgba(181, 159, 91, 0.4);
-    width: 66px;
-    position: absolute;
-    top: 85px;
-    margin-left: -105px;
-
+.popup-title::after {
+  content: '';
+  border-bottom: 3px solid rgba(181, 159, 91, 0.4);
+  width: 66px;
+  position: absolute;
+  top: 85px;
+  margin-left: -105px;
   }
 
-  .popup-title-form {
-    font-size: 13px;
-    color: #000;
-    font-weight: 400;
-    margin-bottom: 9px;
+.popup-title-form {
+  font-size: 13px;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 9px;
   }
-  .title-textarea {
-    margin-top: 30px;
+
+.title-textarea {
+  margin-top: 30px;
   }
 
 .textarea {
@@ -685,27 +672,13 @@ input[type="radio"]:checked + label span {
   width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
   } 
