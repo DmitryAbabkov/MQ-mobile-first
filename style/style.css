@@ -623,12 +623,14 @@ margin-bottom: 4.6rem;
   width: 100%;
   height: 48px;
   padding-left: 19px;
-  background: url('/img/svg/cartel.svg') no-repeat 307px;
+  background: url('../img/svg/cartel.svg') no-repeat;
+  background-position: right 2.5rem top 1.6rem;
   background-color: #F4F7F6;
   border: 0;
   margin-bottom: 30px;
   appearance: none; 
   overflow: hidden;
+  position: relative;
 }
 
 .label-radio {
@@ -651,12 +653,14 @@ input[type="radio"] + label span {
   height:19px;
   margin:-1px 4px 0 0;
   vertical-align:middle;
-  background: url('/img/svg/Shape 2 copy 2.svg') no-repeat center center;
+  background: url('../img/svg/form-circle_nocheked.svg') no-repeat center center;
+  background-size: 1.9rem;
   cursor: pointer;
 }
 
 input[type="radio"]:checked + label span {
-  background: url('/img/svg/Selected.svg') no-repeat center;
+  background: url('../img/svg/form-circle_checked.svg') no-repeat center;
+  background-size: 1.9rem;
 }
 
 .form-submit {

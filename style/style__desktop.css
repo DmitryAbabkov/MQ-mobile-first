@@ -92,7 +92,7 @@
 .triends-item {
     width: 25%;
     height: 32rem;
-    /* padding-left: 2.2rem; */
+    min-width: 0;
 }
 
 .triends-item-title {
